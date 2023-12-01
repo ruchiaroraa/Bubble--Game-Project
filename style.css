@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+   
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 166, 0, 0.507);
+
+}
+#panel{
+    width: 80%;
+    height: 80%;
+    background-color:#fff ;
+    border-radius:10px;
+    overflow: hidden;
+}
+
+#paneltop{
+    width: 100%;
+    background-color: orange;
+    height: 100px;
+    display: flex;
+    color: #fff;
+    padding: 0% 30%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.box{
+    border-radius: 5px;
+    color: rgb(255, 166, 0);
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #fff;
+    
+}
+.elem h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+#panelbottom{
+    width: 100%;
+    height: calc(100% - 100px);
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 156, 0);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.bubble:hover{
+    background-color: rgb(196, 127, 0);
+    cursor: pointer;
+}
+
+button {
+    background-color: orange;
+}
